@@ -47,7 +47,7 @@ local     roach
 
 ### Networking
 
-The example application and the database engine are going to talk to one another over the network. There are different kinds of network configuration possible, and we are going to use what is called a user-defined _bridge network_. It is going to provide us with a DNS lookup service so that we can refer to our database enginer container by its host name.
+The example application and the database engine are going to talk to one another over the network. There are different kinds of network configuration possible, and we are going to use what is called a user-defined _bridge network_. It is going to provide us with a DNS lookup service so that we can refer to our database engine container by its host name.
 
 The following command creates a new bridge network named `mynet`:
 
